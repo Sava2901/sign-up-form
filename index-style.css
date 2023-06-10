@@ -1,0 +1,141 @@
+html {
+    background-image: -webkit-linear-gradient( #000000, #242424);
+    scroll-behavior: smooth;
+}
+
+#introSection {
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    min-width: 350px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.logo {
+
+    padding-left: 9%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage {
+    width: 20%;
+}
+
+#formSection {
+    background-image: linear-gradient(black, #242424);
+    min-height: 100vh;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#formSection > * {
+    padding: 40px;
+    min-width: 450px;
+}
+
+.imageSide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.formImage {
+    width: 100%;
+    min-width: 100px;
+    max-width: 480px;
+    border-radius: 50px;
+}
+
+.formImageText {
+    margin-top: 30px;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.formSide {
+    max-width: 35%;
+    background-color: #000000;
+    box-shadow: 5px 10px 20px #000000;
+}
+
+.textArea {
+    max-width: 50ch;
+    padding-left: 15px;
+}
+
+.formsArea > * {
+    padding: 20px;
+}
+
+.forms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.forms > * {
+    margin: 5px;
+}
+
+.error{
+    margin-top: 20px;
+    height: 20px;
+    grid-column: span 2;
+}
+
+.button {
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    grid-column: span 2;
+    background-color: rgb(2, 126, 2);
+}
+
+.button:hover{
+    background-color: rgb(0, 146, 0);
+}
+
+.button:active{
+    background-color: rgb(0, 185, 0);
+}
+
+.text {
+    font-size: 1rem;
+    font-family: "Oswald";
+    color: azure;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 6vw;
+    font-family: "Bebas Neue";
+}
+
+input{
+    border: 3px solid #000000;
+    border-radius: 3px;
+}
+
+.link {
+    color: rgb(10, 156, 10);
+    text-decoration: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <script src="./index-script.js" defer></script>
+    <title>Odin Gym</title>
+</head>
+
+<body>
+
+    <div id="introSection">
+
+        <div class="logo">
+            <img class="logoImage" src="./Images/logo.png" alt="logo">
+            <span class="text title">ODIN GYM</span>
+        </div>
+        <img class="mainImage" src="./Images/mainImage.jpg" alt="main image">
+    </div>
+
+    <div id="formSection">
+
+        <div class="imageSide">
+            <span class="text formImageText">Be This Fit!</span>
+            <img class="formImage" src="./Images/formImage.jpg">
+        </div>
+
+        <div class="formSide">
+
+            <div class="textArea">
+                <p class="text">
+                    This is not a real service! You know you need something
+                    like this in your life to help you realise your
+                    deepest dreams. Sign up now to get started.
+                </p>
+                <span class="text">
+                    You know you want to. Let's do this!
+                </span>
+            </div>
+
+            <div class="formsArea">
+
+                <form class="forms" action="" method="get">
+                    <label class="text" for="first_name">FIRST NAME</label>
+                    <input id="first_name" type="text" name="first_name" placeholder="John...">
+
+                    <label class="text" for="last_name">LAST NAME</label>
+                    <input id="last_name" type="text" name="last_name" placeholder="Doe...">
+
+                    <label class="text" for="email">EMAIL</label>
+                    <input id="email" type="email" name="email" placeholder="you@example.com">
+
+                    <label class="text" for="phone_number">PHONE NUMBER</label>
+                    <input id="phone_number" type="text" name="phone_number" pattern="[0-9]{10}" placeholder="+40 123 456 789">
+
+                    <label class="text" for="password">PASSWORD</label>
+                    <input id="password" type="password" name="password" placeholder="*********">
+
+                    <label class="text" for="confirm_password">CONFIRM PASSWORD</label>
+                    <input id="confirm_password" type="password" name="confirm_password" placeholder="*********">
+
+                    <div class="error text"></div>
+                    
+                    <button class="button" type="submit">Create Account</button>
+                </form>
+
+                <span class="text">Already have an account?</span>
+                <a class="link" href="">Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
